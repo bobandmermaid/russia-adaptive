@@ -1,0 +1,51 @@
+@import url('./__heading/place__heading.css');
+@import url('./__title/place__title.css');
+@import url('./__website/place__website.css');
+@import url('./__url-heading/place__url-heading.css');
+@import url('./__url/place__url.css');
+@import url('./__content/place__content.css');
+@import url('./__image/place__image.css');
+@import url('./__text/place__text.css');
+@import url('./__paragraph/place__paragraph.css');
+@import url('./__title/_transfer_not/place__title_transfer_not.css');
+@import url('./__text/_bottom_between/place__text_bottom_between.css');
+@import url('./__website/_margin-left_small/place__website_margin-left_small.css');
+
+.place {
+  max-width: 984px;
+  margin-bottom: 83px;
+}
+
+.place:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place {
+    margin-bottom: 51px;
+  }
+  .place:nth-last-child(2) {
+    margin-bottom: 28px;
+  }
+  .place:nth-last-child(3) {
+    margin-bottom: 57px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .place {
+    margin-bottom: 55px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .place {
+    margin-bottom: 55px;
+  }
+}

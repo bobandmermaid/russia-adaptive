@@ -1,0 +1,37 @@
+.comments__container {
+  max-width: 1184px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 69px auto 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .comments__container {
+    margin-top: 69px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .comments__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 63px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .comments__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 46px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .comments__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 38px;
+  }
+}

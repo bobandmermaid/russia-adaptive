@@ -1,0 +1,17 @@
+.place__content {
+  max-width: 984px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .place__content {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .place__content {
+    flex-direction: column;
+  }
+}

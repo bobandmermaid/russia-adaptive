@@ -1,0 +1,37 @@
+.place__paragraph {
+  width: 67.5%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__paragraph {
+    width: 67.25%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .place__paragraph {
+    padding: 0 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 767px) {
+  .place__paragraph {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 521px) and (max-width: 666px) {
+  .place__paragraph {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .place__paragraph {
+    padding: 0 16px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+}

@@ -1,0 +1,35 @@
+@import url('./__lead/content__lead.css');
+@import url('./__intro/content__intro.css');
+@import url('./__photo-grid/content__photo-grid.css');
+@import url('./__places/content__places.css');
+@import url('./__video/content__video.css');
+@import url('./__comments/content__comments.css');
+@import url('./__cover/content__cover.css');
+
+.content {
+  padding-top: 58px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .content {
+    padding-top: 58px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .content {
+    padding-top: 58px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .content {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .content {
+    padding-top: 50px;
+  }
+}

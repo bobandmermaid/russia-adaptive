@@ -1,0 +1,39 @@
+.intro__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.375em;
+  line-height: 1.1;
+  color: #FFFFFF;
+  margin: 0 0 32px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .intro__title {
+    margin-bottom: 34px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro__title {
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .intro__title {
+    font-size: 2em;
+    line-height: 1.1;
+    margin-bottom: 28px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .intro__title {
+    font-size: 2em;
+    line-height: 1.1;
+    margin-bottom: 36px;
+    max-width: 240px;
+  }
+}

@@ -1,0 +1,28 @@
+.content__video {
+  margin: 0 auto;
+  padding-top: 106px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .content__video {
+    padding: 112px 48px 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .content__video {
+    padding: 82px 24px 0;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .content__video {
+    padding: 74px 16px 0;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .content__video {
+    padding: 72px 16px 0;
+  }
+}

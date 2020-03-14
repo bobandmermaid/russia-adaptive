@@ -1,0 +1,9 @@
+@import url('./__title/intro__title.css');
+@import url('./__quote/intro__quote.css');
+@import url('./__span-accent/intro__span-accent.css');
+@import url('./__text-list/intro__text-list.css');
+
+.intro {
+  font-family: 'Inter', Arial, sans-serif;
+  max-width: 984px;
+}

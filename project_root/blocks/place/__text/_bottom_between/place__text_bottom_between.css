@@ -1,0 +1,5 @@
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .place__text_bottom_between {
+    margin-bottom: 31px;
+  }
+}

@@ -1,0 +1,31 @@
+.place__heading {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  max-width: 984px;
+  margin-bottom: 53px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place__heading {
+    margin-bottom: 47px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__heading {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .place__heading {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .place__heading {
+    margin: 0;
+  }
+}

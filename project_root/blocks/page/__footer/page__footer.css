@@ -1,0 +1,33 @@
+.page__footer {
+  padding-top: 154px;
+  padding-bottom: 48px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .page__footer {
+    padding: 154px 48px 48px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .page__footer {
+    padding: 98px 23px 24px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .page__footer {
+    padding-top: 58px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .page__footer {
+    padding-top: 58px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+  }
+}

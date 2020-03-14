@@ -1,0 +1,22 @@
+.intro__text-list {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.8em;
+  line-height: 1.5;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .intro__text-list {
+    font-size: 0.75em;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .intro__text-list {
+    font-size: 0.75em;
+    line-height: 1.6;
+  }
+}

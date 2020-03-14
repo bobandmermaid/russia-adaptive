@@ -1,0 +1,79 @@
+@import url('./_background/video__item-link_background_kamchatka.css');
+@import url('./_background/video__item-link_background_observatory.css');
+
+.video__item-link {
+  display: block;
+  text-decoration: none;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 26px;
+  border-radius: 5px;
+}
+
+.video__item-link::before {
+  content: '';
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.video__item-link:hover::before {
+  background: rgba(0, 0, 0, 0.8);
+  transition: .1s linear;
+  z-index: -2;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .video__item-link {
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .video__item-link {
+    padding-left: 1.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.2em;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 767px) {
+  .video__item-link {
+    padding: 3em;
+  }
+}
+
+@media screen and (min-width: 521px) and (max-width: 666px) {
+  .video__item-link {
+    padding: 1.5em;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 520px) {
+  .video__item-link {
+    padding: 1.5em;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 400px) {
+  .video__item-link {
+    padding: 1.5em;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .video__item-link {
+    padding: 16px;
+  }
+}

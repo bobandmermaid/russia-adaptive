@@ -1,0 +1,5 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__website_margin-left_small {
+    margin-left: 28px;
+  }
+}
