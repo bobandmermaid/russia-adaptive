@@ -13,27 +13,21 @@
 
   <header class="header page__header">
     <img src="images/logo.svg" class="header__logo" alt="Карта России">
-    <!-- Отлично! логотип загружен в векторном формате -->
-
     <a href="" class="header__lang header__lang_selected">Ru</a>
     <a href="" class="header__lang ">En</a>
-    <!-- Отлично! Выбранный язык реализован с помощью модификатора -->
   </header>
 
   <main class="content">
 
     <section class="lead content__lead">
       <h1 class="lead__title">Путешествия по России</h1>
-      <!-- Отлично! правильно выделен заголовок страницы и обозначен тегом h1 -->
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
       <picture>
         <source srcset="images/lead768.png" media="(min-width: 768px) and (max-width: 1023px)">
         <source srcset="images/polka320.png" media="(max-width: 374px)">
         <source srcset="images/polka1024.jpg" media="(min-width: 1024px) and (max-width: 1279px)">
         <img src="images/polka.jpg" alt="Человек спящий на полке в плацкарте." class="lead__image">
-
       </picture>
-      <!-- Отлично! Используется тег picture -->
       <p class="lead__caption">Ваша полка — верхняя</p>
     </section>
 
@@ -77,7 +71,6 @@
           <div class="place__website">
             <p class="place__url-heading">Url</p>
             <a href="http://park-kosa.ru/" class="place__url" target="_blank">park-kosa.ru</a>
-            <!-- Отлично! для внешних ссылок есть атрибут target="_blank" -->
           </div>
         </div>
         <div class="place__content">
@@ -206,7 +199,6 @@
           <img src="images/lyagushkin.jpg" alt="Лицо человека в очках и с бородой." class="comment__image">
           <blockquote class="comment__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте
             “наружу”…»</blockquote>
-            <!-- Отлично! Для цитаты использован семантический тег blockquote -->
           <p class="comment__author">Виктор Лягушкин</p>
         </div>
         <div class="comment">
@@ -248,48 +240,9 @@
         </li>
       </ul>
     </nav>
-
-
     <p class="footer__copyright">&copy; 2020. Подоляк Илья</p>
   </footer>
 
 </body>
 
 </html>
-
-<!-- В целом по работе:
-
-      Отлично! Понравилось в работе:
-
-        - Классы названы по БЭМ
-        - Страница валидна
-        - Использованы семантические теги и списки
-        - Для подзаголовков использованы параграфы
-        - Для переиспользования в проекте есть блоки
-        - Размечены все макеты
-        - Нет горизонтальных скроллов
-        - На большом экране контент центрируется
-        - Все брейкпоинты внешне соответствуют макетам
-        - Учтены изменения шрифтов и размеров блоков
-        - Аккуратное выравнивание блоков на странице
-
-
-
-Отличная работа! Комментарии исправлены! Удачи в дальнейшем обучении!
- https://habr.com/ru/company/netologyru/blog/327294/
-
-
-Полезные материалы:
-
-Масштабируемые шрифты
-- https://codepen.io/Maks113/pen/dgWpxE
-- https://codepen.io/CrocoDillon/pen/fBJxu
-- https://codepen.io/TrevorJTClarke/pen/GoJYOo
-- https://codepen.io/podolskiis/pen/erxmKW
-
-Плотность пикселей
-- https://vc.ru/design/19864-pixels-in-mobile-design
-
-Что должен знать фронтенд-разработчик
-- https://habr.com/ru/company/netologyru/blog/327294/
--->
