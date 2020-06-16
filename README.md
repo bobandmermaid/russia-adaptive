@@ -1,7 +1,13 @@
-# russia-adaptive
+# Путешествия по России
+### Посмотреть 
+https://bobandmermaid.github.io/russia-adaptive/
 
--- Адаптивный лендинг - HTML/CSS(flexbox, grid)/BEM. Путешествия по России – адаптивный сайт.
-• Адаптивный сайт, сделанный по макету из Figma.
-• Файловая структура БЭМ.
+### О проекте
++ Адаптивный лендинг об интересных и красивых местах в России.  
+`Учебный проект сделанный для Яндекс.Практикум`
 
-link -> https://bobandmermaid.github.io/russia-adaptive/
+### Стек технологий
++ HTML5
++ CSS3(flexbox, grid)
++ BEM
++ Figma
