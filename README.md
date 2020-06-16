@@ -10,4 +10,4 @@ https://bobandmermaid.github.io/russia-adaptive/
 + HTML5
 + CSS3(flexbox, grid)
 + BEM
-+ Figma
++ Figma(Pixel Perfect)
